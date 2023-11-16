@@ -2,16 +2,21 @@
 Es un proyecto de entrada a Mercado Libre.
 
 # Datos
+
 Nombre y apellido: Sofia Lemos
+
 Legajo: 51583
+
 Email: sofialemos091@gmail.com
 
 # Objetivo del Código:
+
 Este código que he desarrollado tiene como propósito principal identificar si una matriz de ADN, proporcionada por el usuario, contiene secuencias genéticas mutantes
 
 # ¿Cómo lo hice?
 
 En la entrada use un bucle para pedir al usuario que ingrese cada fila de ADN. Se espera que cada fila tenga exactamente 6 caracteres, y estos caracteres deben ser válidos (A, T, C, G). Si la entrada no cumple con estos requisitos, emito un mensaje de error y salgo de la función.Las filas de ADN válidas se almacenan en 'entrada', y cada fila se convierte a mayúsculas para garantizar uniformidad en el análisis.
+
 
 def es_mutante():
     entrada = []
@@ -63,20 +68,36 @@ Utilizo una expresión generadora para contar cuántas secuencias mutantes hay e
 En resumen, mi código implementa un enfoque meticuloso para determinar la presencia de mutaciones en una matriz de ADN, considerando todas las posibles orientaciones de las secuencias.
 
 # Ejemplo
-1 CATCAT
+
+1 
+
+  CATCAT
+
   GCTATC
+  
   CCTGAT
+  
   AGGCCT
+  
   GTCGTT
+  
   GCTATC
 
 NO ES MUTANTE
 
-2 AAAGAT
+
+2 
+
+  AAAGAT
+
   GGGGTT
+  
   CCTTGG
+  
   CTCTCT
+  
   GTAGTA
+  
   CGTTTT
 
 ES MUTANTE
